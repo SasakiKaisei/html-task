@@ -1,0 +1,17 @@
+@charset "utf-b";
+body{
+    background-color: #FFB6C1;
+}
+
+img{
+    width: 30%;
+    height: 50%;
+}
+
+table, th, td{
+    border: solid 3px blue;
+}
+
+th, td{
+    padding: 30px;
+}
