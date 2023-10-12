@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+p{
+    color: rgb(16, 42, 77);
+    
+
+}
+.text-brown{
+    color:orangered;
+}
+span{
+    border: 4px dotted orange;
+    color: red;
+}
