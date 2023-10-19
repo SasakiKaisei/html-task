@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.hissu{
+    color: aliceblue;
+    background-color: red;
+    border-radius: 5px; 
+    font-size: 8px;
+}
+
+.omake{
+    font-size: 8px;
+}
+
+th{
+    color: aliceblue;
+    background-color: brown;
+    vertical-align: top;
+    text-align: left;
+}
+
+td{
+    background-color: papayawhip;
+}
+
+th, td{
+    padding: 13px;
+}
+
+button{
+    width: 180px;
+}
+
+div{
+    margin: 12px;
+}
