@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+a{
+    font-size: 0.7rem;
+}
+input{
+    margin: 5px;
+}
+button{
+    margin: 15px;
+}
