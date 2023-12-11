@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+table, th, td{
+    border: 5px solid green;
+    padding: 12px;
+}
+
+table{
+    background-color: white;
+    margin: 50px;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: #ADFF2F;
+}
+
+.url{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+    text-align: center;
+}
+
+div a{
+    text-decoration: none;
+    color: green;
+}
+
+img{
+    width: 600px;
+    height: 350px;
+    margin-top: 40px;
+}

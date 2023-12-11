@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    background-image: url(../img/haikei.jpg);
+}
+
+header, footer{
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #00FF00;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+header nav ul li{
+    width: 20%;
+    text-align: center;
+}
+
+header nav ul li + li{
+    border-left: 2px solid green;
+}
+
+header nav ul li a{
+    color: green;
+    padding: 0.5rem;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ol{
+    list-style: none;
+    display: flex;
+}
+
+header nav ol li a{
+    text-decoration: none;
+    color: green;
+}
+
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+
+.breadcrumbs li:last-child::after{
+    content: "";
+}
+
+.breadcrumbs li a:visited{
+    color: green;
+}
+
+.breadcrumbs{
+    font-weight: bold;
+}
+
+img{
+    display: inline;
+}
+  
