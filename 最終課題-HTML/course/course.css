@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.all{
+    display: flex;
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.ul{
+    width: 20%;
+    height: 100vh;
+    background-color: #800000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul li{
+    position: relative;
+    top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: white solid 1px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.course{
+    width: 80vw;
+    margin-left: 20vw;
+}
+
+.img1, .img2{
+    display: flex;
+}
+
+.img{
+    width: 75%;
+}
+
+.img1, .img2{
+    margin: 30px 20%;
+}
+
+h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.syousai p{
+    margin: 20px 50px;
+}
+footer a{
+    text-decoration: none;
+}
+footer{
+    margin-bottom: 30px;
+}
